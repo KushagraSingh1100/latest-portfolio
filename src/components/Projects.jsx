@@ -87,7 +87,7 @@ const Projects = () => {
             href="https://github.com/KushagraSingh1100"
             className="w-max py-2 px-4 rounded-2xl flex items-center gap-2 bg-[#1F1A2E] text-white"
           >
-            View All Projects <ArrowUpRight className="w-5" />
+            My GitHub <ArrowUpRight className="w-5" />
           </a>
         </div>
       </div>
