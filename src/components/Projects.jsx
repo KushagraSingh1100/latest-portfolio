@@ -1,6 +1,6 @@
-import bingo from "../assets/bingo.png";
 import amibot from "../assets/amibot.png";
 import freework from "../assets/freework.jpg";
+import resumeIQ from "../assets/resumeIQ.png";
 import rapid from "../assets/rapid.png";
 import event from "../assets/event.png";
 import transfer from "../assets/transfer.png";
@@ -119,21 +119,20 @@ const Projects = () => {
           </div>
         </a>
 
-        <a href="https://github.com/KushagraSingh1100/Link-Shortner" target="_blank" className="project-card relative min-h-[420px] lg:h-[55vh] bg-[#f4f2fa] border border-[#DDD6CF] rounded-2xl flex flex-col gap-4 p-4 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-500">
+        <a href="https://github.com/KushagraSingh1100/ResumeIQ" target="_blank" className="project-card relative min-h-[420px] lg:h-[55vh] bg-[#f4f2fa] border border-[#DDD6CF] rounded-2xl flex flex-col gap-4 p-4 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-500">
           <div className="overflow-hidden shadow-md rounded-md">
             <img
-              src={rapid}
+              src={resumeIQ}
               className="w-full h-[180px] sm:h-[190px] object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className=" flex-1 rounded-md pb-5 overflow-x-scroll no-scrollbar">
             <h1 className="font-clash text-[1.8rem] text-[#8c63ff] font-semibold">
-              Rapid Shortener
+              ResumeIQ
             </h1>
 
             <p className="font-inter text-[#4B445A] mt-1 leading-6 text-[15px] line-clamp-4 w-full lg:w-[85%]">
-              A minimal and efficient URL shortener that converts long URLs into
-              short shareable links with fast redirection.
+              An AI-powered resume optimizer that analyzes resumes against job descriptions, provides ATS scores and actionable suggestions, and generates tailored LaTeX-based resume updates.
             </p>
             <ChevronRight
               className="absolute right-7 bottom-3 text-black"
@@ -159,30 +158,6 @@ const Projects = () => {
               A freelancing platform connecting clients and freelancers with
               project posting, bidding, collaboration, and communication
               features.
-            </p>
-            <ChevronRight
-              className="absolute right-7 bottom-3 text-black"
-              strokeWidth={3}
-            />
-          </div>
-        </a>
-        <a href="https://github.com/KushagraSingh1100/eventpulse" target="_blank" className="project-card relative min-h-[420px] lg:h-[55vh] bg-[#f4f2fa] border border-[#DDD6CF] rounded-2xl flex flex-col gap-4 p-4 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-500">
-          <div className="overflow-hidden shadow-md rounded-md">
-            <img
-              src={event}
-              className="w-full h-[180px] sm:h-[190px] object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
-
-          <div className=" flex-1 rounded-md pb-5 overflow-x-scroll no-scrollbar">
-            <h1 className="font-clash text-[1.8rem] text-[#8c63ff] font-semibold">
-              Event Pulse
-            </h1>
-
-            <p className="font-inter text-[#4B445A] mt-2 leading-6 text-[15px] line-clamp-4 w-[85%]">
-              An event management system for institutions to organize, manage,
-              and track college events, registrations, schedules, and
-              announcements.
             </p>
             <ChevronRight
               className="absolute right-7 bottom-3 text-black"
@@ -216,22 +191,22 @@ const Projects = () => {
           </div>
         </a>
 
-        <a href="https://github.com/KushagraSingh1100/BinGo" target="_blank" className="project-card relative min-h-[420px] lg:h-[55vh] bg-[#f4f2fa] border border-[#DDD6CF] rounded-2xl flex flex-col gap-4 p-4 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-500">
+        <a href="https://github.com/KushagraSingh1100/Link-Shortner" target="_blank" className="project-card relative min-h-[420px] lg:h-[55vh] bg-[#f4f2fa] border border-[#DDD6CF] rounded-2xl flex flex-col gap-4 p-4 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-500">
           <div className="overflow-hidden shadow-md rounded-md">
             <img
-              src={bingo}
+              src={rapid}
               className="w-full h-[180px] sm:h-[190px] object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
 
           <div className=" flex-1 rounded-md pb-5 overflow-x-scroll no-scrollbar">
             <h1 className="font-clash text-[1.8rem] text-[#8c63ff] font-semibold">
-              Bingo
+              Rapid Shortener
             </h1>
 
             <p className="font-inter text-[#4B445A] mt-1 leading-6 text-[15px] line-clamp-4 w-full lg:w-[85%]">
-              An environmental assistance platform featuring waste segregation
-              detection, complaint filing, and community-driven tools.
+              A minimal and efficient URL shortener that converts long URLs into
+              short shareable links with fast redirection.
             </p>
             <ChevronRight
               className="absolute right-7 bottom-3 text-black"
@@ -239,6 +214,32 @@ const Projects = () => {
             />
           </div>
         </a>
+        
+        <a href="https://github.com/KushagraSingh1100/eventpulse" target="_blank" className="project-card relative min-h-[420px] lg:h-[55vh] bg-[#f4f2fa] border border-[#DDD6CF] rounded-2xl flex flex-col gap-4 p-4 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-500">
+          <div className="overflow-hidden shadow-md rounded-md">
+            <img
+              src={event}
+              className="w-full h-[180px] sm:h-[190px] object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+
+          <div className=" flex-1 rounded-md pb-5 overflow-x-scroll no-scrollbar">
+            <h1 className="font-clash text-[1.8rem] text-[#8c63ff] font-semibold">
+              Event Pulse
+            </h1>
+
+            <p className="font-inter text-[#4B445A] mt-2 leading-6 text-[15px] line-clamp-4 w-[85%]">
+              An event management system for institutions to organize, manage,
+              and track college events, registrations, schedules, and
+              announcements.
+            </p>
+            <ChevronRight
+              className="absolute right-7 bottom-3 text-black"
+              strokeWidth={3}
+            />
+          </div>
+        </a>
+
       </div>
     </div>
   );
